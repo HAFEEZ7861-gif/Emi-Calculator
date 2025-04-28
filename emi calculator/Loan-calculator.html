@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loan EMI Calculator</title>
+    <link rel="stylesheet" href="Loan-Calculator.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Loan EMI Calculator</h1>
+        <form onsubmit="calculate(); return false;">
+            <div class="input-group">
+                <label for="amount">Loan amount: ₹</label>
+                <input type="number" id="amount" placeholder="Enter amount" required>
+            </div>
+            <div class="input-group">
+                <label for="rate">Rate (Interest): %</label>
+                <input step=".1" id="rate" placeholder="Enter rate" required>
+            </div>
+            <div class="input-group">
+                <label for="time">Months (Time):</label>
+                <input type="number" id="time" placeholder="Enter time" required>
+            </div>
+            <button type="submit" id="btn">Calculate</button>
+            <div id="output-group">
+                <p>Total EMI: ₹ <span id="output"></span></p>
+            </div>
+        </form>
+    </div>
+    <script src="Loan-Calculator.js"></script>
+</body>
+</html>

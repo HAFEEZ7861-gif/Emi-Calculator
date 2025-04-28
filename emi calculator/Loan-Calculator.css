@@ -1,0 +1,73 @@
+.container {
+    width: 400px;
+    height: auto;
+    background-color: #031926;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    margin: 50px auto;
+}
+h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.input-group {
+    margin-bottom: 20px;
+}
+.input-group label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.input-group input {
+    height: 40px;
+    width: 100%;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    color: #031926;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.input-group input::placeholder {
+    color: #777;
+}
+#btn {
+    color: #ffffff;
+    background-color: #007bff;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    align-self: center;
+    transition: background-color 0.3s ease;
+}
+#btn:hover {
+    background-color: #0056b3;
+}
+#btn:active {
+    background-color: #004085;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+#output-group {
+    margin-top: 30px;
+    text-align: center;
+}
+#output-group p {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+#output {
+    font-size: 24px;
+    font-weight: bold;
+}
